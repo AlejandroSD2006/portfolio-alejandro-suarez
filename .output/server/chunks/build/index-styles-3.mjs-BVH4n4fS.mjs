@@ -1,5 +1,0 @@
-//#region app/components/ui/StatsStrip.vue?vue&type=style&index=0&scoped=3b10dcf3&inline&used&lang.css
-var StatsStrip_vue_vue_type_style_index_0_scoped_3b10dcf3_inline_used_lang_default = ".stats-strip[data-v-3b10dcf3]{border-top:1px solid var(--line);border-bottom:1px solid var(--line);grid-template-columns:repeat(3,1fr);margin:0 0 30px;display:grid}.stat-item[data-v-3b10dcf3]{gap:6px;padding:17px 19px 17px 0;display:grid}.stat-item+.stat-item[data-v-3b10dcf3]{border-left:1px solid var(--line);padding-left:19px}.stat-item strong[data-v-3b10dcf3]{font:24px var(--mono);font-weight:400}.stat-item span[data-v-3b10dcf3]{color:var(--muted);font:8px var(--mono);line-height:1.5}@media (width<=620px){.stats-strip[data-v-3b10dcf3]{margin-bottom:25px}.stat-item[data-v-3b10dcf3]{padding:13px 8px 13px 0}.stat-item+.stat-item[data-v-3b10dcf3]{padding-left:8px}.stat-item strong[data-v-3b10dcf3]{font-size:19px}.stat-item span[data-v-3b10dcf3]{font-size:7px}}";
-
-export { StatsStrip_vue_vue_type_style_index_0_scoped_3b10dcf3_inline_used_lang_default as S };
-//# sourceMappingURL=index-styles-3.mjs-BVH4n4fS.mjs.map

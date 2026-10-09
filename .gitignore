@@ -6,3 +6,4 @@ dist/
 .data
 .nitro
 .cache
+.vercel

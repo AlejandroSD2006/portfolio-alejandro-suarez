@@ -1,1 +1,0 @@
-import{Qt as e,ot as t,z as n}from"./DvS1ACQo.js";var r={key:0},i={key:1,class:`todo`},a={__name:`LegalValue`,props:{value:{type:String,default:``}},setup(a){return(o,s)=>a.value?(t(),n(`span`,r,e(a.value),1)):(t(),n(`mark`,i,`[TO BE COMPLETED]`))}};export{a as t};

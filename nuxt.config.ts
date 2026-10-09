@@ -5,8 +5,15 @@ export default defineNuxtConfig({
   components: [{ path: '~/components', pathPrefix: false }],
   css: ['~/assets/css/main.css'],
   routeRules: { '/**': { prerender: true } },
-  image: { format: ['avif', 'webp'], quality: 80 },
-  nitro: { externals: { inline: ['nuxt'] } },
+  image: {
+    provider: process.env.VERCEL ? 'vercel' : 'ipx',
+    format: ['avif', 'webp'],
+    quality: 80,
+  },
+  nitro: {
+    preset: process.env.VERCEL ? 'vercel' : undefined,
+    externals: { inline: ['nuxt'] },
+  },
   fonts: {
     families: [
       { name: 'Manrope', provider: 'google', weights: [400, 500, 600, 700, 800] },
